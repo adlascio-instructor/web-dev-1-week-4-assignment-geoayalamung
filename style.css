@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;1,600&family=Krub:wght@400;700&family=Poppins:wght@400;500;600&family=Righteous&family=Roboto:wght@400;500&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+   color:  #d4ccb6;
+}
+p{
+    color:  #d4ccb6;
+}
+h5{
+    color:#ffc632;
+    justify-content: space-around;
+}
+main{
+    margin: 0;
+    grid-area: 2rem;
+
+}
+body {
+    max-height: 100vh;
+    font-family: 'Roboto';
+    background: #191816;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #191816;
+    font-size: 16px;
+}
+header {
+    background-image: url('./images/logo.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    height: 100px;
+}
+form{
+    width: 40%;
+    margin: auto;
+    margin-top: 200px;
+    background: #24221f;
+    padding: 100px 95px;
+}
+form .group-input{
+    position: relative;
+}
+form .group-input input{
+    padding: 8px 0px 8px 140px;
+    margin-bottom: 8px;
+    outline: none;
+    background-color: #24221f;
+}
+form .group-input i {
+    position: absolute;
+    margin-left: 10px;
+    top: 14px;
+    font-size: 20px;
+    color:#ffc632;
+}
+form .checkbox{
+    color: #afb6c2;
+    display: flex;
+}
+form .link {
+    color: rgb(255, 198, 50);
+    margin-bottom: 0.5px;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: right;
+}
+.button {
+    text-align: center;
+}
+  
+#button {
+    display: block;
+    margin: 0 auto;
+    padding: 9px 100px;
+    font-size: 15px;
+    background-color: #ffc632;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+#button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+form .account{
+    color: #ffc632;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+form .account legend{
+    color: #ffc632;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+form .account span{
+    color: #ffc632;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+@media (max-widht: 900px) {
+   
+}

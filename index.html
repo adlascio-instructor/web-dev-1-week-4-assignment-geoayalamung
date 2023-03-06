@@ -5,7 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="'https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;1,600&family=Krub:wght@400;700&family=Poppins:wght@400;500;600&family=Righteous&family=Roboto:wght@400;500&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');"
+    />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div id="logo">
+        <img id="logo_header" src="./images/logo.svg"/><br>
+      </div>
+    </header>
+    <form action="">
+      <h1 class="title">
+        <i class="fa-solid fa-arrow-right-to-bracket"></i> Login</h1></br>
+        <p>Insert your information below</p></br>
+        <p>E-mail</p>
+      <div class="group-input">
+        <i class="fa-regular fa-envelope"></i>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="Type your email"
+          style="border: 1px solid #ffc632"
+          focus
+        />
+      </div>
+      <p>Password</p>
+      <div class="group-input">
+        <i class="fa-solid fa-unlock"></i>
+        <input
+          placeholder="Type your password"
+          name="password"
+          id="password"
+          title="You are wrong!"
+          focus
+          style="border: 1px solid #9a9a9a"
+        />
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" 
+        name="Remind me"
+        value="Remind me"
+        id="Remind me"/>
+        <legend>Remind me</legend>
+       <!--  <br><h5>Forgot my password</h5> -->
+      </div>
+    <div class="link">
+      <legend>Forgot my password</legend>
+      </div>
+      <div class="button">
+        <button id="button">LOGIN</button>
+      </div>
+      <div class="account">
+        <legend>Don't have an account? <span>Sign Up!</span></legend>
+      </div>
+    
+    </form>
+    <img src="/images/side-image.jpg" alt="">
+    <script src="main.js"></script>
+  </body>
 </html>
